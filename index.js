@@ -13,5 +13,5 @@ if(localStorage.getItem('email')) {
     location.href = '../../view/login/login.html'
 }
 logout.addEventListener('click', ()=>{
-    location.href = '../../view/login/login.html'
+    location.href = '../login_page/view/login/login.html'
 })
