@@ -11,7 +11,7 @@
     --colorT: #3C999634;
     --font1: 'Roboto';
     --font2: 'Agbalumo';
-    --switch-bg-url: url(/assets/image/switch-bg/moon-stars.svg);
+    --switch-bg-url: url(../image/switch-bg/moon-stars.svg);
 }
 
 .dark {
@@ -23,7 +23,7 @@
     --colorW: #000000;
     --colorB: #FFFFFF;
     --colorT: #3C999634;
-    --switch-bg-url: url(/assets/image/switch-bg/sun.svg);
+    --switch-bg-url: url(../image/switch-bg/sun.svg);
 }
 
 * {
