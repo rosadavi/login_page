@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../../assets/javascript/script.js" defer></script>
+    <script src="register.js" defer></script>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <section class="modal">
+            <ion-icon name="close-circle" id="closeModal"></ion-icon>
+            <p>User successfully registered</p>
+            <button id="enter">Sign In</button>
+        </section>
+    </div>
+    <section class="infos">
+        <div id="switch">
+            <button></button>
+            <span></span>
+        </div>
+        <h1>One of us?</h1>
+        <p>If you alredy have your own account, just log in.</p>
+        <a href="../login/login.html">Sign In</a>
+    </section>
+    <section class="addAccount">
+        <h1>Create an Acoount Record</h1>
+        <form action="" method="" id="formLoginUp">
+            <div class="container">
+                <section class="div1">
+                    <span><input type="text" name="" id="Name" placeholder="Name" autocomplete="off"><p id="spanInputName" class="span"></p></span>
+                    <span><input type="text" name="" id="surname" placeholder="Surname" autocomplete="off"><p id="spanInputSurname" class="span"></p></span>
+                    <span><input type="number" name="" id="age" placeholder="Age" autocomplete="off"><p id="spanInputAge" class="span"></p></span>
+                </section>
+                <section class="div2">
+                    <span>
+                        <input type="email" name="" id="email" placeholder="Email" autocomplete="off">
+                        <p id="spanInputEmail" class="span"></p>
+                        <p id="spanInputEmailExist"></p>
+                    </span>
+                    <span><input type="password" name="" id="password" placeholder="Password"><p id="spanInputPassword" class="span"></p></span>
+                    <span><input type="password" name="" id="passwordConfirm" placeholder="Confirm Password"><p id="spanInputConfirmPassword" class="span"></p></span>
+                </section>
+            </div>
+            <div class="robot">
+                <input type="checkbox" name="" id="terms"> <span>I agree to the <a href="#">Terms and Conditions</a><p id="alertTerms"></p></span>
+            </div>
+            <div class="confirmBtn">
+                <input type="submit" value="Registtration">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

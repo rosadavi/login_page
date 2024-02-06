@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.loginAccount {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--colorW);
+}
+
+.loginAccount > * {
+    text-align: center;
+}
+
+.loginAccount > h1 {
+    color: var(--colorB);
+    font-size: 3rem;
+    font-family: var(--font2);
+    font-weight: lighter;
+}
+
+.loginAccount > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+#formLoginIn {
+    width: 60%;
+    display: flex;
+    font-family: var(--font1);
+    justify-content: center;
+}
+
+#formLoginIn > .container {
+    width: 90%;
+    margin: auto;
+}
+
+.container > .div1 {
+    width: 100%;
+}
+
+.div1 > input, .div2 > input {
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    padding: 20px;
+    background-color: var(--colorT);
+    margin: 10px;
+    border: 2px solid var(--colorB);
+    color: var(--colorB)
+}
+
+.confirmBtn > input[type=button] {
+    border: 2px solid var(--color5);
+    border-radius: 25px;
+    background-color: var(--color5);
+    color: var(--colorW);
+    font-size: 1.3rem;
+    font-weight: bolder;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: ease-in-out .3s;
+    width: 40%;
+}
+
+.confirmBtn > input[type=button]:hover {
+    border: 2px solid var(--color5);
+    color: var(--colorB);
+    background-color: transparent;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 40%;
+    padding: 0 20px;
+    background-color: var(--color4);
+}
+
+.infos > * {
+    text-align: center;
+}
+
+.infos > h1 {
+    color: var(--colorW);
+    font-size: 3rem;
+    font-family: var(--font2);
+    font-weight: lighter;
+}
+
+.infos > p {
+    color: var(--colorW);
+    font-size: 1.2rem;
+    font-family: var(--font1)
+}
+
+.infos > a {
+    font-size: 1.2rem;
+    font-family: var(--font1);
+    font-weight: bolder;
+    color: var(--colorW);
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--colorW);
+    transition: ease-in-out .3s;
+}
+
+.infos a:hover {
+    background-color: var(--colorW);
+    color: var(--colorB);
+}

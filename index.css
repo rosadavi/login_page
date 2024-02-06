@@ -1,0 +1,33 @@
+#btnLogout {
+    position: absolute; 
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: var(--color1);
+    color: var(--colorB);
+    font-weight: bolder;
+    font-family: var(--font2);
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+#btnLogout:hover {
+    scale: 1.2;
+}
+
+.container {
+    background-color: var(--color5);
+    font-family: var(--font2);
+    font-size: 2rem;
+    color: var(--colorW);
+}
+
+#switch {
+    position: absolute;
+    top: 8%;
+    left: 80%;  
+}
