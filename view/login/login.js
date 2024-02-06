@@ -76,6 +76,6 @@ signin.addEventListener('click', ()=>{
     }
 })
 
-if(localStorage.getItem('dark')) {
+if(localStorage.getItem('model')) {
     HTML.classList.add('dark')
 }

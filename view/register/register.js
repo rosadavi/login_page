@@ -205,6 +205,6 @@ formLoginUp.addEventListener('submit', (e)=>{
     }
 })
 
-if(localStorage.getItem('dark')) {
+if(localStorage.getItem('model')) {
     HTML.classList.add('dark')
 }
