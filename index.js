@@ -10,7 +10,7 @@ if(localStorage.getItem('email')) {
     h1.textContent = user
 } else {
     alert('Log in to your account to access the site.')
-    location.href = '../../view/login/login.html'
+    location.href = 'https://rosadavi.github.io/login_page/view/register/register.html'
 }
 logout.addEventListener('click', ()=>{
     location.href = 'https://rosadavi.github.io/login_page/view/register/register.html'
